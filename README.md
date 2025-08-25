@@ -50,6 +50,27 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+# requirements.txt file for the refurbished phone app.
+You can create a new file named requirements.txt in your project folder and copy this content inside 👇
+
+streamlit==1.37.0
+pandas==2.2.2
+altair==5.3.0
+numpy==1.26.4
+
+✅ Explanation:
+streamlit → for the web interface
+
+pandas → for CSV export/import
+
+altair → for charts/visualization (Streamlit dependency)
+
+numpy → often required by pandas & Streamlit
+
+
+⚡ Now when someone clones my repo, they just need to run:
+
+pip install -r requirements.txt
 
 
 # 🔑 Default Login
